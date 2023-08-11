@@ -1,5 +1,5 @@
 const input = document.querySelector("#name-input");
-console.log(input)
+
 const span = document.querySelector("#name-output");
 
 const inputName = event => {

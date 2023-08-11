@@ -14,7 +14,6 @@ const images = [
 ];
 
 const imgGallery = document.querySelector(".gallery");
-console.log(imgGallery);
 
 const galleryCards = ({url, alt}) => `<li><img src = '${url}' alt = '${alt}' width="320"></li>`;
 

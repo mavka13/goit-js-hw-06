@@ -9,7 +9,6 @@ const ingredients = [
 
 const ingredientsEl = document.querySelector('#ingredients')
 
-console.log(ingredientsEl)
 
 const ingrListItems = ingredients.map((ingredient) => {
   
@@ -19,5 +18,4 @@ const ingrListItems = ingredients.map((ingredient) => {
   ingrListItem.classList.add("item");
   return ingrListItem;
 })
-console.log(ingredients);
-ingredientsEl.append(...listRefs);
+ingredientsEl.append(...ingrListItems);
